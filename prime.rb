@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
+ 
   i = 1
   count = 0 
   while i <= num 
