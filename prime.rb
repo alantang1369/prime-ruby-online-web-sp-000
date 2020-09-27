@@ -7,6 +7,6 @@ def prime?(num)
     count += 1 if num % i == 0 
     i += 1 
   end
-  true if count == 2 
+   count == 2 ? true : false
 end  
       
