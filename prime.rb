@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
- return false if num < 0
+ return false if num <= 0
   i = 1
   count = 0 
   while i <= num 
